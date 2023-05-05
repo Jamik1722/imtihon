@@ -1,0 +1,126 @@
+.hero__contact {
+    height: 480px;
+    background: #E7816B;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    h1 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+    
+    p {
+        width: 445px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    
+    .input__box input::placeholder {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    
+    .input__box2 input::placeholder {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    
+    .input__box3 input::placeholder {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    
+    .input__box4 input::placeholder {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    
+    .input__box input {
+        width: 380px;
+        height: 38px;
+        border: none;
+        background: none;
+        border-bottom: 2px solid white;
+        padding-left: 16px;
+        color: #FFFFFF;
+    }
+
+    .input__box2 input {
+        width: 380px;
+        height: 38px;
+        border: none;
+        background: none;
+        border-bottom: 2px solid white;
+        padding-left: 16px;
+        margin-top: 25px;
+        color: #FFFFFF;
+    }
+    
+    .input__box3 input {
+        width: 380px;
+        height: 38px;
+        border: none;
+        background: none;
+        border-bottom: 2px solid white;
+        padding-left: 16px;
+        margin-top: 25px;
+        color: #FFFFFF;
+    }
+    
+    .input__box4 input {
+        height: 102px;
+        width: 380px;        
+        border: none;
+        background: none;
+        border-bottom: 2px solid white;
+        padding-left: 16px;
+        color: #FFFFFF;
+    }
+    
+    .contact__btn {
+        height: 56px;
+        width: 152px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 24px;
+        margin-left: 219px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        background: #FFFFFF;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #333136;
+    }
+    
+    .contact__btn:hover {
+        background: #FFAD9B;
+        color: #FFFFFF;
+        transition: 0.5s;
+    }
+}

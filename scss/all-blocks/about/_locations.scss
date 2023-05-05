@@ -1,0 +1,50 @@
+.locations__hero {
+    
+    margin-top: 64px;
+    
+    .locations__hero_container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .locations__hero_box {
+        height: 326px;
+        width: 730px;
+        background: #FDF3F0;
+        border-radius: 20px;
+    }
+    
+    .locations__hero_box3 {
+        height: 326px;
+        width: 730px;
+        background: #FDF3F0;
+        border-radius: 20px;
+        margin-left: 30px;
+    }
+    
+    .locations__text_box__all {
+        width: 540px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 95px;
+    }
+    
+    h3 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        color: #E7816B;
+        padding-left: 95px;
+        padding-top: 80px;
+    }
+    
+    iframe {
+        width: 350px;
+        height: 326px;
+        padding-left: 30px;
+        border-radius: 20px;
+    }
+}

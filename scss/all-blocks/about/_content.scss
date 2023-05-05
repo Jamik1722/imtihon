@@ -1,0 +1,52 @@
+.content {
+    padding-top: 160px;
+    
+    .content__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .content__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        h3 {
+            padding-top: 48px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            color: #333136;
+        }
+        
+        button {
+            height: 56px;
+            width: 152px;
+            border-radius: 8px;
+            border: none;
+            background: #E7816B;
+            margin-top: 32px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        
+        button:hover {
+            background: #FFAD9B;
+            color: #FFFFFF;
+            transition: 0.5s;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .content__container {
+            flex-direction: column;
+        }
+    }
+}

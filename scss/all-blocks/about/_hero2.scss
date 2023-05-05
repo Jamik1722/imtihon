@@ -1,0 +1,33 @@
+.hero2 {
+    background-color: $gobal-color;
+    height: 480px;
+    margin-top: 64px;
+    
+    .hero__container {
+        background: url("/img/hero2-img.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:480px;
+        background-position: right;
+        height: 480px;
+        overflow: hidden;
+    }
+    
+    h1 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        color: #FFFFFF;
+        padding-top: 100px;
+    }
+    
+    p {
+        max-width: 458px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;    
+        color: #FFFFFF;
+    }
+}

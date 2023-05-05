@@ -1,0 +1,37 @@
+.services__container2 {
+    padding-top: 160px;
+    
+    .services2__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            color: #E7816B;
+        }
+        
+        p {
+            max-width: 445px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #333136;
+            padding-top: 24px;
+        }
+        
+        .text2 {
+            max-width: 445px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #333136;
+            padding-top: 30px;
+        }
+    }
+}

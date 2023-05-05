@@ -1,0 +1,33 @@
+.design {
+    padding-top: 160px;
+
+    .design__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .design__box {
+        h2 {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            color: #E7816B;
+        }
+        
+        p {
+            max-width: 445px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #333136;
+            padding-top: 24px;
+        }
+
+        .text3 {
+            padding-top: 30px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+// GENERAL CSS //
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Jost';
+}
+
+.container {
+    max-width: 1111px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img {
+    display: inline-block;
+}

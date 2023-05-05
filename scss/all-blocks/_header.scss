@@ -1,0 +1,46 @@
+.header {
+    padding-top: 50px;
+    .header__navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__list {
+        display: flex;
+    }
+    
+    .header__item {
+        list-style: none;
+    }
+    
+    .header__link {
+        text-decoration: none;
+        padding-left: 42px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #333136;
+    }
+    
+    .header__link:hover {
+        text-decoration: underline;
+    }
+
+    .header__menu {
+        font-size: 30px;
+        color: #000;
+        display: none;
+    }
+
+    @media screen and (max-width: 400px) {
+        .header__list {
+            display: none;
+        }
+
+        .header__menu {
+            display: block;
+            right: 200px;
+        }
+    }
+}
